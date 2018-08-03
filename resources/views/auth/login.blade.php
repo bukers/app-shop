@@ -20,7 +20,7 @@
                         @csrf
               <div class="card-header card-header-primary text-center">
                 <h4 class="card-title">Login</h4>
-                <div class="social-line">
+            {{--     <div class="social-line">
                   <a href="#pablo" class="btn btn-just-icon btn-link">
                     <i class="fa fa-facebook-square"></i>
                   </a>
@@ -30,7 +30,7 @@
                   <a href="#pablo" class="btn btn-just-icon btn-link">
                     <i class="fa fa-google-plus"></i>
                   </a>
-                </div>
+                </div> --}}
               </div>
               <p class="description text-center">INGRESAR</p>
               <div class="card-body">
@@ -50,12 +50,6 @@
                                     </span>
                                 @endif
                 </div>
-
-
-
-
-
-
                 <div class="input-group">
                   <div class="input-group-prepend">
                     <span class="input-group-text">
